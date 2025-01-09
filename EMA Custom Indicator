@@ -2,7 +2,7 @@
 // © Zephyr Analytics
 
 //@version=6
-indicator("168 EMA Indicator", overlay=true)
+indicator("EMA Indicator", overlay=true)
 
 // Input for EMA Length
 emaLength = input.int(168, title="EMA Length", minval=1, tooltip="Exponential Moving Average period")
